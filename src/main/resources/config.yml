@@ -1,0 +1,64 @@
+shearable-animals:
+  cow:
+    shearable: true
+    sliceable: true
+    loot:
+      material: LEATHER
+      amount: 1
+    slice:
+      loot:
+        material: BEEF
+        amount: 2
+    exp: 2
+  chicken:
+    shearable: true
+    sliceable: true
+    loot:
+      material: FEATHER
+      amount: 2
+    slice:
+      loot:
+        material: CHICKEN
+        amount: 1
+    exp: 1
+  horse:
+    shearable: true
+    sliceable: true
+    loot:
+      material: LEATHER
+      amount: 2
+    slice:
+      loot:
+        material: BEEF
+        amount: 3
+    exp: 3
+  rabbit:
+    shearable: true
+    sliceable: true
+    loot:
+      material: RABBIT_HIDE
+      amount: 1
+    slice:
+      loot:
+        material: RABBIT
+        amount: 1
+    exp: 1
+  pig:
+    shearable: false
+    sliceable: true
+    slice:
+      loot:
+        material: PORKCHOP
+        amount: 2
+    exp: 1
+  llama:
+    shearable: true
+    sliceable: true
+    loot:
+      material: WOOL
+      amount: 3
+    slice:
+      loot:
+        material: LEATHER
+        amount: 2
+    exp: 2

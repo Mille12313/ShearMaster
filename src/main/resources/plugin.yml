@@ -1,0 +1,23 @@
+name: ShearMaster
+version: '0.01-SNAPSHOT'
+main: bloody.devmules.shearMaster.ShearMaster
+api-version: '1.21'
+
+commands:
+  shearmaster:
+    description: Main command for ShearMaster plugin
+    usage: /<command>
+    aliases: [sm]
+    permission: shearmaster.admin
+
+permissions:
+  shearmaster.admin:
+    description: Grants full access to ShearMaster commands (such as reload)
+    default: op
+  shearmaster.use:
+    description: Grants permission to shear or slice animals
+    default: true
+  shearmaster.toggle:
+    description: Grants permission to toggle shearing/slicing of animals
+    default: op
+
