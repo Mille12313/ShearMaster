@@ -6,7 +6,11 @@
 
     <groupId>bloody.devmules</groupId>
     <artifactId>ShearMaster</artifactId>
+<<<<<<< HEAD
     <version>1.1-</version>
+=======
+    <version>0.01-SNAPSHOT</version>
+>>>>>>> origin/main
     <packaging>jar</packaging>
 
     <name>ShearMaster</name>
@@ -65,7 +69,11 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
+<<<<<<< HEAD
             <version>1.21.4-R0.1-SNAPSHOT</version>
+=======
+            <version>1.21.1-R0.1-SNAPSHOT</version>
+>>>>>>> origin/main
             <scope>provided</scope>
         </dependency>
     </dependencies>
