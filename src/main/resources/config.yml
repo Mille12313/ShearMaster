@@ -1,0 +1,75 @@
+shearable-animals:
+  cow:
+    shearing:
+      enabled: true
+      loot:
+        - material: LEATHER
+          amount: 1
+      exp: 2
+    slicing:
+      enabled: true
+      loot:
+        - material: BEEF
+          amount: 2
+      exp: 2
+  chicken:
+    shearing:
+      enabled: true
+      loot:
+        - material: FEATHER
+          amount: 2
+      exp: 1
+    slicing:
+      enabled: true
+      loot:
+        - material: CHICKEN
+          amount: 1
+      exp: 1
+  horse:
+    shearing:
+      enabled: true
+      loot:
+        - material: LEATHER
+          amount: 2
+      exp: 2
+    slicing:
+      enabled: true
+      loot:
+        - material: BEEF
+          amount: 3
+      exp: 3
+  rabbit:
+    shearing:
+      enabled: true
+      loot:
+        - material: RABBIT_HIDE
+          amount: 1
+      exp: 1
+    slicing:
+      enabled: true
+      loot:
+        - material: RABBIT
+          amount: 1
+      exp: 1
+  pig:
+    shearing:
+      enabled: false
+    slicing:
+      enabled: true
+      loot:
+        - material: PORKCHOP
+          amount: 2
+      exp: 1
+  llama:
+    shearing:
+      enabled: true
+      loot:
+        - material: WHITE_WOOL
+          amount: 3
+      exp: 2
+    slicing:
+      enabled: true
+      loot:
+        - material: LEATHER
+          amount: 2
+      exp: 2
